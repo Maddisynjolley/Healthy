@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maddisyn Jolley | BYU Pre-Business Student</title>
+
+<style>
+:root{
+    --emerald:#059669;
+    --emerald-dark:#047857;
+    --light:#f8fafc;
+    --gray:#64748b;
+    --dark:#0f172a;
+    --card:#ffffff;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:#f8fafc;
+    color:var(--dark);
+    line-height:1.7;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+}
+
+header{
+    background:white;
+    box-shadow:0 2px 15px rgba(0,0,0,.05);
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 0;
+}
+
+.logo{
+    font-size:1.3rem;
+    font-weight:700;
+    color:var(--emerald);
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+nav a{
+    text-decoration:none;
+    color:var(--dark);
+    font-weight:500;
+}
+
+nav a:hover{
+    color:var(--emerald);
+}
+
+.hero{
+    background:linear-gradient(135deg,var(--emerald),var(--emerald-dark));
+    color:white;
+    padding:110px 20px;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:3.4rem;
+    margin-bottom:15px;
+}
+
+.hero h2{
+    font-size:1.4rem;
+    font-weight:400;
+    margin-bottom:25px;
+}
+
+.hero p{
+    max-width:750px;
+    margin:auto;
+    font-size:1.1rem;
+}
+
+.buttons{
+    margin-top:35px;
+}
+
+.btn{
+    display:inline-block;
+    padding:14px 28px;
+    margin:10px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn-primary{
+    background:white;
+    color:var(--emerald);
+}
+
+.btn-primary:hover{
+    transform:translateY(-3px);
+}
+
+.btn-secondary{
+    border:2px solid white;
+    color:white;
+}
+
+.btn-secondary:hover{
+    background:white;
+    color:var(--emerald);
+}
+
+section{
+    padding:80px 0;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    font-size:2.2rem;
+    color:var(--emerald);
+}
+
+.about{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:center;
+}
+
+.about-card{
+    background:white;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.06);
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.skill-card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+}
+
+.skill-card h3{
+    color:var(--emerald);
+    margin-bottom:15px;
+}
+
+.timeline{
+    display:grid;
+    gap:25px;
+}
+
+.job{
+    background:white;
+    padding:30px;
+    border-left:5px solid var(--emerald);
+    border-radius:10px;
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+}
+
+.job h3{
+    margin-bottom:5px;
+}
+
+.job .date{
+    color:var(--gray);
+    margin-bottom:10px;
+}
+
+.education{
+    background:white;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+}
+
+.contact{
+    text-align:center;
+    background:white;
+    border-radius:15px;
+    padding:50px;
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+}
+
+.contact p{
+    margin:12px 0;
+    font-size:1.1rem;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:var(--gray);
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:2.4rem;
+}
+
+.about{
+    grid-template-columns:1fr;
+}
+
+nav{
+    flex-direction:column;
+    gap:15px;
+}
+
+nav ul{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container">
+<nav>
+<div class="logo">Maddisyn Jolley</div>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<section class="hero">
+<div class="container">
+
+<h1>Maddisyn Jolley</h1>
+
+<h2>BYU Pre-Business Student | Future Business Professional | Fluent Spanish Speaker</h2>
+
+<p>
+I am a Pre-Business student at Brigham Young University with experience in leadership,
+customer service, office management, community outreach, and cross-cultural communication.
+I enjoy solving problems, serving others, and creating meaningful results through teamwork,
+organization, and strong interpersonal skills.
+</p>
+
+<div class="buttons">
+<a href="#contact" class="btn btn-primary">Contact Me</a>
+<a href="#experience" class="btn btn-secondary">View Experience</a>
+</div>
+
+</div>
+</section>
+
+<section id="about">
+<div class="container">
+
+<div class="section-title">
+<h2>About Me</h2>
+</div>
+
+<div class="about">
+
+<div class="about-card">
+<h3>Who I Am</h3>
+<br>
+<p>
+I am currently pursuing a Pre-Business degree at Brigham Young University. My experiences
+have allowed me to develop strong communication, leadership, customer service, and
+organizational skills while working in professional, volunteer, and international settings.
+</p>
+</div>
+
+<div class="about-card">
+<h3>What Sets Me Apart</h3>
+<br>
+<p>
+Through missionary service in Argentina, leadership roles, healthcare administration,
+entrepreneurship, and humanitarian projects, I have learned how to adapt quickly,
+work effectively with diverse groups, and lead with professionalism and integrity.
+</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="skills">
+<div class="container">
+
+<div class="section-title">
+<h2>Skills & Strengths</h2>
+</div>
+
+<div class="skills">
+
+<div class="skill-card">
+<h3>Business</h3>
+<ul>
+<li>Customer Relations</li>
+<li>Office Administration</li>
+<li>Scheduling & Organization</li>
+<li>Financial Coordination</li>
+</ul>
+</div>
+
+<div class="skill-card">
+<h3>Leadership</h3>
+<ul>
+<li>Team Leadership</li>
+<li>Event Planning</li>
+<li>Public Speaking</li>
+<li>Volunteer Coordination</li>
+</ul>
+</div>
+
+<div class="skill-card">
+<h3>Communication</h3>
+<ul>
+<li>Fluent Spanish</li>
+<li>Cross-Cultural Communication</li>
+<li>Teaching & Training</li>
+<li>Relationship Building</li>
+</ul>
+</div>
+
+<div class="skill-card">
+<h3>Technology</h3>
+<ul>
+<li>Microsoft Word</li>
+<li>Microsoft PowerPoint</li>
+<li>Business Software</li>
+<li>Administrative Systems</li>
+</ul>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="experience">
+<div class="container">
+
+<div class="section-title">
+<h2>Professional Experience</h2>
+</div>
+
+<div class="timeline">
+
+<div class="job">
+<h3>Assistant Office Manager • Professional Dental</h3>
+<div class="date">September 2025 – May 2026</div>
+<p>
+Managed scheduling, insurance coordination, patient financial accounts, and served as the
+Spanish translator for the office. Developed strong organizational and customer service skills
+while supporting daily business operations.
+</p>
+</div>
+
+<div class="job">
+<h3>Missionary • The Church of Jesus Christ of Latter-day Saints</h3>
+<div class="date">January 2024 – July 2025 | Argentina</div>
+<p>
+Provided community service, taught English classes, organized community events, led groups
+of missionaries, and developed professional-level Spanish communication skills while serving
+in diverse communities throughout Argentina.
+</p>
+</div>
+
+<div class="job">
+<h3>Campaign Staff • Karin Robson Campaign</h3>
+<div class="date">July 2022 – September 2022</div>
+<p>
+Conducted voter outreach and surveys through direct community engagement, strengthening
+communication and public relations skills.
+</p>
+</div>
+
+<div class="job">
+<h3>Founder & Coach • Sand Volleyball Club</h3>
+<div class="date">September 2020 – May 2021</div>
+<p>
+Created and managed a youth volleyball club. Recruited participants, handled billing,
+organized tournaments, and coordinated training schedules.
+</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="education">
+<div class="container">
+
+<div class="section-title">
+<h2>Education</h2>
+</div>
+
+<div class="education">
+
+<h3>Brigham Young University</h3>
+<p><strong>Pre-Business Student</strong></p>
+<p>Provo, Utah | June 2023 – Present</p>
+<p>GPA: 3.32</p>
+
+<br>
+
+<h3>Highlights</h3>
+<ul>
+<li>Fluent in Spanish</li>
+<li>Leadership experience in academic, professional, and volunteer settings</li>
+<li>Extensive community service and humanitarian experience</li>
+<li>Strong interest in business, leadership, and professional development</li>
+</ul>
+
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<div class="container">
+
+<div class="contact">
+
+<h2>Let's Connect</h2>
+
+<br>
+
+<p><strong>Email:</strong> maddisynjolley@gmail.com</p>
+<p><strong>Phone:</strong> (480) 931-2383</p>
+<p><strong>Location:</strong> Provo, Utah</p>
+
+<br>
+
+<p>
+I am currently seeking internships and professional opportunities where I can contribute,
+learn, and grow while creating meaningful impact.
+</p>
+
+</div>
+
+</div>
+</section>
+
+<footer>
+© 2026 Maddisyn Jolley • Brigham Young University Pre-Business Student
+</footer>
+
+</body>
+</html>
